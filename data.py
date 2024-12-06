@@ -172,7 +172,7 @@ if __name__ == "__main__":
     answer = main()
     if answer:
         print(submit_answer(YEAR, DAY, PART, str(answer)))
-        print(f"Part {part} asnwer = ")
+        print(f"Part {part} answer = {{answer}}")
 """
 
     # Create or update `part1.py`
